@@ -43,7 +43,7 @@ nav a{
     flex-wrap: wrap;
 }
 
-#part-1{
+#section-1{
     margin: 200px auto 150px;
     width: 88%;
 }
@@ -79,11 +79,11 @@ nav a{
     flex: 50%;
 }
 
-#part-2{
+#section-2{
     margin: 150px auto;
     width: 88%;
 }
-.part{
+.section{
     text-align: center;
     font-weight: 500;
     font-size: 28px;
@@ -170,7 +170,7 @@ nav a{
     line-height: 26px;
 }
 
-#part-3{
+#section-3{
     margin: 200px auto;
     width: 88%;
 }
@@ -215,19 +215,19 @@ nav a{
     border-radius: 200px;
     border: 1px solid #11296B;
 }
-#box-container-1-part-3{
+#box-container-1-section-3{
     margin-left: 60px;
 }
-#box-container-2-part-3{
+#box-container-2-section-3{
     margin-left: 60px;
 }
-#box-container-3-part-3{
+#box-container-3-section-3{
     margin-left: 18px;
 }
-#box-container-4-part-3{
+#box-container-4-section-3{
     margin-left: 78px;
 }
-#box-container-5-part-3{
+#box-container-5-section-3{
     margin-left: 18px;
 }
 .box-container-end{
