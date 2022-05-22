@@ -37,158 +37,166 @@
     </div>
     <div id="section-2">
         <h2 class="section">Pilih kelas populer<br>untuk mahasiswa</h2>
-        <div class="flex-container">
-            <div class="box-container">
-                <img src="assets/image-2.png" alt="">
+        <div class="filter">
+            <select name="category-filter" id="category-filter" class="category-filter">
+                <option value="all" selected="selected">Semua</option>
+                <option value="front-end">Front-End Developer</option>
+                <option value="back-end">Back-End Developer</option>
+                <option value="mobile">Mobile Developer</option>
+            </select>
+        </div>
+        <div class="flex-container filter-section">
+            <div class="box-container front-end">
+                <img src="assets/image-2.png" alt="man-with-laptop">
                 <div class="box-text-container">
                     <div class="materials-text-1">
-                        <p class="course-text">Back-End Develo...</p>
-                        <p class="price-text">Rp. 235.000</p>
+                        <p class="course-text">HTML+CSS+JS</p>
+                        <p class="price-text">Rp. 99.000</p>
                     </div>
                     <div class="materials-text-2">
                         <div class="materials-text-2-box">
                             <img src="assets/materials-shape.svg" alt="materials">
                             <p>12 Materi</p>
                         </div>
-                        <p class="like">
+                        <p id="1" class="like">
                             <i class="fa fa-heart" aria-hidden="true"></i>
                         </p>
                     </div>
                 </div>
-                <a href="#get" class="get-course-text">Ambil Kelas</a>
+                <a href="#get" class="get-course-text" onclick="fav(1)">Ambil Kelas</a>
             </div>
-            <div class="box-container">
-                <img src="assets/image-2.png" alt="">
+            <div class="box-container front-end">
+                <img src="assets/image-2.png" alt="man-with-laptop">
                 <div class="box-text-container">
                     <div class="materials-text-1">
-                        <p class="course-text">Back-End Develo...</p>
-                        <p class="price-text">Rp. 235.000</p>
+                        <p class="course-text">React (NextJS)</p>
+                        <p class="price-text">Rp. 99.000</p>
                     </div>
                     <div class="materials-text-2">
                         <div class="materials-text-2-box">
                             <img src="assets/materials-shape.svg" alt="materials">
                             <p>12 Materi</p>
                         </div>
-                        <p class="like">
+                        <p id="2" class="like">
                             <i class="fa fa-heart" aria-hidden="true"></i>
                         </p>
                     </div>
                 </div>
-                <a href="#get" class="get-course-text">Ambil Kelas</a>
+                <a href="#get" class="get-course-text" onclick="fav(2)">Ambil Kelas</a>
             </div>
-            <div class="box-container">
-                <img src="assets/image-2.png" alt="">
+            <div class="box-container back-end">
+                <img src="assets/image-2.png" alt="man-with-laptop">
                 <div class="box-text-container">
                     <div class="materials-text-1">
-                        <p class="course-text">Back-End Develo...</p>
-                        <p class="price-text">Rp. 235.000</p>
+                        <p class="course-text">PHP (Laravel)</p>
+                        <p class="price-text">Rp. 99.000</p>
                     </div>
                     <div class="materials-text-2">
                         <div class="materials-text-2-box">
                             <img src="assets/materials-shape.svg" alt="materials">
                             <p>12 Materi</p>
                         </div>
-                        <p class="like">
+                        <p id="3" class="like">
                             <i class="fa fa-heart" aria-hidden="true"></i>
                         </p>
                     </div>
                 </div>
-                <a href="#get" class="get-course-text">Ambil Kelas</a>
+                <a href="#get" class="get-course-text" onclick="fav(3)">Ambil Kelas</a>
             </div>
-            <div class="box-container">
-                <img src="assets/image-2.png" alt="">
+            <div class="box-container back-end">
+                <img src="assets/image-2.png" alt="man-with-laptop">
                 <div class="box-text-container">
                     <div class="materials-text-1">
-                        <p class="course-text">Back-End Develo...</p>
-                        <p class="price-text">Rp. 235.000</p>
+                        <p class="course-text">Node (NestJS)</p>
+                        <p class="price-text">Rp. 99.000</p>
                     </div>
                     <div class="materials-text-2">
                         <div class="materials-text-2-box">
                             <img src="assets/materials-shape.svg" alt="materials">
                             <p>12 Materi</p>
                         </div>
-                        <p class="like">
+                        <p id="4" class="like">
                             <i class="fa fa-heart" aria-hidden="true"></i>
                         </p>
                     </div>
                 </div>
-                <a href="#get" class="get-course-text">Ambil Kelas</a>
+                <a href="#get" class="get-course-text" onclick="fav(4)">Ambil Kelas</a>
             </div>
-            <div class="box-container">
-                <img src="assets/image-2.png" alt="">
+            <div class="box-container back-end">
+                <img src="assets/image-2.png" alt="man-with-laptop">
                 <div class="box-text-container">
                     <div class="materials-text-1">
-                        <p class="course-text">Back-End Develo...</p>
-                        <p class="price-text">Rp. 235.000</p>
+                        <p class="course-text">Golang</p>
+                        <p class="price-text">Rp. 99.000</p>
                     </div>
                     <div class="materials-text-2">
                         <div class="materials-text-2-box">
                             <img src="assets/materials-shape.svg" alt="materials">
                             <p>12 Materi</p>
                         </div>
-                        <p class="like">
+                        <p id="5" class="like">
                             <i class="fa fa-heart" aria-hidden="true"></i>
                         </p>
                     </div>
                 </div>
-                <a href="#get" class="get-course-text">Ambil Kelas</a>
+                <a href="#get" class="get-course-text" onclick="fav(5)">Ambil Kelas</a>
             </div>
-            <div class="box-container">
-                <img src="assets/image-2.png" alt="">
+            <div class="box-container mobile">
+                <img src="assets/image-2.png" alt="man-with-laptop">
                 <div class="box-text-container">
                     <div class="materials-text-1">
-                        <p class="course-text">Back-End Develo...</p>
-                        <p class="price-text">Rp. 235.000</p>
+                        <p class="course-text">Kotlin</p>
+                        <p class="price-text">Rp. 99.000</p>
                     </div>
                     <div class="materials-text-2">
                         <div class="materials-text-2-box">
                             <img src="assets/materials-shape.svg" alt="materials">
                             <p>12 Materi</p>
                         </div>
-                        <p class="like">
+                        <p id="6" class="like">
                             <i class="fa fa-heart" aria-hidden="true"></i>
                         </p>
                     </div>
                 </div>
-                <a href="#get" class="get-course-text">Ambil Kelas</a>
+                <a href="#get" class="get-course-text" onclick="fav(6)">Ambil Kelas</a>
             </div>
-            <div class="box-container">
-                <img src="assets/image-2.png" alt="">
+            <div class="box-container mobile">
+                <img src="assets/image-2.png" alt="man-with-laptop">
                 <div class="box-text-container">
                     <div class="materials-text-1">
-                        <p class="course-text">Back-End Develo...</p>
-                        <p class="price-text">Rp. 235.000</p>
+                        <p class="course-text">Swift</p>
+                        <p class="price-text">Rp. 99.000</p>
                     </div>
                     <div class="materials-text-2">
                         <div class="materials-text-2-box">
                             <img src="assets/materials-shape.svg" alt="materials">
                             <p>12 Materi</p>
                         </div>
-                        <p class="like">
+                        <p id="7" class="like">
                             <i class="fa fa-heart" aria-hidden="true"></i>
                         </p>
                     </div>
                 </div>
-                <a href="#get" class="get-course-text">Ambil Kelas</a>
+                <a href="#get" class="get-course-text" onclick="fav(7)">Ambil Kelas</a>
             </div>
-            <div class="box-container">
-                <img src="assets/image-2.png" alt="">
+            <div class="box-container mobile">
+                <img src="assets/image-2.png" alt="man-with-laptop">
                 <div class="box-text-container">
                     <div class="materials-text-1">
-                        <p class="course-text">Back-End Develo...</p>
-                        <p class="price-text">Rp. 235.000</p>
+                        <p class="course-text">Dart (Flutter)</p>
+                        <p class="price-text">Rp. 99.000</p>
                     </div>
                     <div class="materials-text-2">
                         <div class="materials-text-2-box">
                             <img src="assets/materials-shape.svg" alt="materials">
                             <p>12 Materi</p>
                         </div>
-                        <p class="like">
+                        <p id="8" class="like">
                             <i class="fa fa-heart" aria-hidden="true"></i>
                         </p>
                     </div>
                 </div>
-                <a href="#get" class="get-course-text">Ambil Kelas</a>
+                <a href="#get" class="get-course-text" onclick="fav(8)">Ambil Kelas</a>
             </div>
         </div>
         <div id="expand-course">

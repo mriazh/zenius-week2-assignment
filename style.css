@@ -314,3 +314,7 @@ footer{
 .heart i.fa-heart{
     color: #f44336;
 }
+
+.filter{
+    text-align: right;
+}
