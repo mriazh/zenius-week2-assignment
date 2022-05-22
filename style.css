@@ -314,6 +314,3 @@ footer{
 .heart i.fa-heart{
     color: #f44336;
 }
-.heart{
-    animation: heart 0.5s linear;
-}
