@@ -35,7 +35,7 @@ function filterList(value) {
 let loadMore = document.querySelector('#load-more');
 let items = 4;
 loadMore.onclick = () =>{
-    let box = [...document.querySelectorAll(".box-container")];
+    let box = document.querySelectorAll(".box-container");
     for (let i = items; i < items+4; i++){
         box[i].style.display = "block";
     }
